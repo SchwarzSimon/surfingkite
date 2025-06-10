@@ -1,11 +1,5 @@
-# This file is never read -- it's just a copy of the pipeline's
-# configuration in the Buildkite UI.
-
 steps:
-  - name: ":pipeline: rails-initial-pipeline"
+  - name: ":pipeline: Foo"
     command: |
-      PATH=/bin:/usr/bin
-      set -e
-      echo "Running buildkite!"
-      cp .buildkite/.dockerignore .dockerignore
+      echo "This is a pipeline step"
     timeout_in_minutes: 5
