@@ -1,1 +1,3 @@
 echo "hello from here..."
+
+exit 1
